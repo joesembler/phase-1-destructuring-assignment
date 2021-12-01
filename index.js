@@ -31,9 +31,30 @@ const nestedMuppet = {
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them bessie, dolly, babe, and little.
 
+const cow = {
+  name : 'Bessie',
+  color : 'blackAndWhite',
+  sound: 'moo'
+};
+
+const sheep = {
+  name : 'Dolly',
+  color : 'black'
+};
+
+const pig = {
+  name : 'Babe',
+  color : 'pink'
+};
+
+const chicken = {
+  name : 'Little'
+};
+
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of blackAndWhite, black, and pink.
 
-// Arrays
+
+// // Arrays
 
 // 4. Use destructuring to assign appropriate variables using the color names.
 
@@ -41,7 +62,7 @@ const nestedMuppet = {
 
 // 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg. 
 
-// Objects
+// // Objects
 
 // 7. Use destructuring to assign all variables using the keys as the variable names
 
